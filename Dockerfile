@@ -13,7 +13,7 @@ ENV DB_PORT=5432
 WORKDIR /app
 
 # Clone the repository
-RUN git clone https://github.com/hubsvn277/DhiWise-Test -b Dhiwise-U70ey35n .
+RUN git clone https://github.com/hubsvn277/DhiWise-Test .
 
 # Install dependencies and start the application
 RUN npm install --force && npm start

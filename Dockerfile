@@ -16,7 +16,7 @@ WORKDIR /app
 RUN git clone https://github.com/hubsvn277/DhiWise-Test .
 
 # Install dependencies and start the application
-RUN npm install --force && npm start
+# RUN npm install --force && npm start
 
 # Expose the application port
 EXPOSE $APP_PORT
@@ -26,4 +26,4 @@ LABEL maintainer="Your Name <your.email@example.com>"
 LABEL version="1.0"
 
 # Set the command to run the application
-CMD ["npm", "start"]
+# CMD ["npm", "start"]
